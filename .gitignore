@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET Core secrets
+**/appsettings.Development.json
+**/secrets.json
+
+# Log files
+*.log
+
+# Dotnet tools
+.tools/
+.dotnet/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework Migrations history
+_migrations/
+
+# Publish results
+publish/
+out/
+
+# Global JSON and VS-specific folders
+.vs/
+.env
+
+# Optional: JetBrains Rider or ReSharper settings
+.ReSharper*/
+*.DotSettings.user
