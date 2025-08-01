@@ -38,6 +38,7 @@ artifacts/
 
 # Entity Framework Migrations history
 _migrations/
+Migrations/
 
 # Publish results
 publish/
