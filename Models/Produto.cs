@@ -1,6 +1,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APICatalogo.Models
 {
@@ -23,6 +24,7 @@ namespace APICatalogo.Models
         public float Estoque { get; set; }
         public DateTime DataCadastro { get; set; }
         public int CategoriaID { get; set; }
+        [JsonIgnore]
         public Categoria? Categoria { get; set; }
     }
 }
