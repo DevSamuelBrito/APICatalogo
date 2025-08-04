@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using APICatalogo.validations;
 
 namespace APICatalogo.Models
 {
@@ -11,6 +12,7 @@ namespace APICatalogo.Models
         public int ProdutoID { get; set; }
         [Required]
         [StringLength(100)]
+        [PrimeiraLetraMaiscula]
         public string? Nome { get; set; }
         [Required]
         [StringLength(300)]
